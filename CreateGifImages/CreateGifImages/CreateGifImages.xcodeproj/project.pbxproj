@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEAB9A1D1C7AB76F00EF3A15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAB9A1C1C7AB76F00EF3A15 /* main.m */; };
+		CEAB9A201C7AB76F00EF3A15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAB9A1F1C7AB76F00EF3A15 /* AppDelegate.m */; };
+		CEAB9A231C7AB76F00EF3A15 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAB9A221C7AB76F00EF3A15 /* ViewController.m */; };
+		CEAB9A261C7AB76F00EF3A15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEAB9A241C7AB76F00EF3A15 /* Main.storyboard */; };
+		CEAB9A281C7AB76F00EF3A15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEAB9A271C7AB76F00EF3A15 /* Assets.xcassets */; };
+		CEAB9A2B1C7AB76F00EF3A15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEAB9A291C7AB76F00EF3A15 /* LaunchScreen.storyboard */; };
+		CEAB9A361C7AB76F00EF3A15 /* CreateGifImagesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAB9A351C7AB76F00EF3A15 /* CreateGifImagesTests.m */; };
+		CEAB9A411C7AB76F00EF3A15 /* CreateGifImagesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAB9A401C7AB76F00EF3A15 /* CreateGifImagesUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEAB9A321C7AB76F00EF3A15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEAB9A101C7AB76F00EF3A15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEAB9A171C7AB76F00EF3A15;
+			remoteInfo = CreateGifImages;
+		};
+		CEAB9A3D1C7AB76F00EF3A15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEAB9A101C7AB76F00EF3A15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEAB9A171C7AB76F00EF3A15;
+			remoteInfo = CreateGifImages;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEAB9A181C7AB76F00EF3A15 /* CreateGifImages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreateGifImages.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEAB9A1C1C7AB76F00EF3A15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEAB9A1E1C7AB76F00EF3A15 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEAB9A1F1C7AB76F00EF3A15 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEAB9A211C7AB76F00EF3A15 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CEAB9A221C7AB76F00EF3A15 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CEAB9A251C7AB76F00EF3A15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEAB9A271C7AB76F00EF3A15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEAB9A2A1C7AB76F00EF3A15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEAB9A2C1C7AB76F00EF3A15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEAB9A311C7AB76F00EF3A15 /* CreateGifImagesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreateGifImagesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEAB9A351C7AB76F00EF3A15 /* CreateGifImagesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreateGifImagesTests.m; sourceTree = "<group>"; };
+		CEAB9A371C7AB76F00EF3A15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEAB9A3C1C7AB76F00EF3A15 /* CreateGifImagesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreateGifImagesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEAB9A401C7AB76F00EF3A15 /* CreateGifImagesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreateGifImagesUITests.m; sourceTree = "<group>"; };
+		CEAB9A421C7AB76F00EF3A15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEAB9A151C7AB76F00EF3A15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEAB9A2E1C7AB76F00EF3A15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEAB9A391C7AB76F00EF3A15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEAB9A0F1C7AB76F00EF3A15 = {
+			isa = PBXGroup;
+			children = (
+				CEAB9A1A1C7AB76F00EF3A15 /* CreateGifImages */,
+				CEAB9A341C7AB76F00EF3A15 /* CreateGifImagesTests */,
+				CEAB9A3F1C7AB76F00EF3A15 /* CreateGifImagesUITests */,
+				CEAB9A191C7AB76F00EF3A15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEAB9A191C7AB76F00EF3A15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEAB9A181C7AB76F00EF3A15 /* CreateGifImages.app */,
+				CEAB9A311C7AB76F00EF3A15 /* CreateGifImagesTests.xctest */,
+				CEAB9A3C1C7AB76F00EF3A15 /* CreateGifImagesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEAB9A1A1C7AB76F00EF3A15 /* CreateGifImages */ = {
+			isa = PBXGroup;
+			children = (
+				CEAB9A1E1C7AB76F00EF3A15 /* AppDelegate.h */,
+				CEAB9A1F1C7AB76F00EF3A15 /* AppDelegate.m */,
+				CEAB9A211C7AB76F00EF3A15 /* ViewController.h */,
+				CEAB9A221C7AB76F00EF3A15 /* ViewController.m */,
+				CEAB9A241C7AB76F00EF3A15 /* Main.storyboard */,
+				CEAB9A271C7AB76F00EF3A15 /* Assets.xcassets */,
+				CEAB9A291C7AB76F00EF3A15 /* LaunchScreen.storyboard */,
+				CEAB9A2C1C7AB76F00EF3A15 /* Info.plist */,
+				CEAB9A1B1C7AB76F00EF3A15 /* Supporting Files */,
+			);
+			path = CreateGifImages;
+			sourceTree = "<group>";
+		};
+		CEAB9A1B1C7AB76F00EF3A15 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEAB9A1C1C7AB76F00EF3A15 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEAB9A341C7AB76F00EF3A15 /* CreateGifImagesTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEAB9A351C7AB76F00EF3A15 /* CreateGifImagesTests.m */,
+				CEAB9A371C7AB76F00EF3A15 /* Info.plist */,
+			);
+			path = CreateGifImagesTests;
+			sourceTree = "<group>";
+		};
+		CEAB9A3F1C7AB76F00EF3A15 /* CreateGifImagesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEAB9A401C7AB76F00EF3A15 /* CreateGifImagesUITests.m */,
+				CEAB9A421C7AB76F00EF3A15 /* Info.plist */,
+			);
+			path = CreateGifImagesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEAB9A171C7AB76F00EF3A15 /* CreateGifImages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEAB9A451C7AB76F00EF3A15 /* Build configuration list for PBXNativeTarget "CreateGifImages" */;
+			buildPhases = (
+				CEAB9A141C7AB76F00EF3A15 /* Sources */,
+				CEAB9A151C7AB76F00EF3A15 /* Frameworks */,
+				CEAB9A161C7AB76F00EF3A15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CreateGifImages;
+			productName = CreateGifImages;
+			productReference = CEAB9A181C7AB76F00EF3A15 /* CreateGifImages.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEAB9A301C7AB76F00EF3A15 /* CreateGifImagesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEAB9A481C7AB76F00EF3A15 /* Build configuration list for PBXNativeTarget "CreateGifImagesTests" */;
+			buildPhases = (
+				CEAB9A2D1C7AB76F00EF3A15 /* Sources */,
+				CEAB9A2E1C7AB76F00EF3A15 /* Frameworks */,
+				CEAB9A2F1C7AB76F00EF3A15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEAB9A331C7AB76F00EF3A15 /* PBXTargetDependency */,
+			);
+			name = CreateGifImagesTests;
+			productName = CreateGifImagesTests;
+			productReference = CEAB9A311C7AB76F00EF3A15 /* CreateGifImagesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEAB9A3B1C7AB76F00EF3A15 /* CreateGifImagesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEAB9A4B1C7AB76F00EF3A15 /* Build configuration list for PBXNativeTarget "CreateGifImagesUITests" */;
+			buildPhases = (
+				CEAB9A381C7AB76F00EF3A15 /* Sources */,
+				CEAB9A391C7AB76F00EF3A15 /* Frameworks */,
+				CEAB9A3A1C7AB76F00EF3A15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEAB9A3E1C7AB76F00EF3A15 /* PBXTargetDependency */,
+			);
+			name = CreateGifImagesUITests;
+			productName = CreateGifImagesUITests;
+			productReference = CEAB9A3C1C7AB76F00EF3A15 /* CreateGifImagesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEAB9A101C7AB76F00EF3A15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Qburst;
+				TargetAttributes = {
+					CEAB9A171C7AB76F00EF3A15 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					CEAB9A301C7AB76F00EF3A15 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = CEAB9A171C7AB76F00EF3A15;
+					};
+					CEAB9A3B1C7AB76F00EF3A15 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = CEAB9A171C7AB76F00EF3A15;
+					};
+				};
+			};
+			buildConfigurationList = CEAB9A131C7AB76F00EF3A15 /* Build configuration list for PBXProject "CreateGifImages" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEAB9A0F1C7AB76F00EF3A15;
+			productRefGroup = CEAB9A191C7AB76F00EF3A15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEAB9A171C7AB76F00EF3A15 /* CreateGifImages */,
+				CEAB9A301C7AB76F00EF3A15 /* CreateGifImagesTests */,
+				CEAB9A3B1C7AB76F00EF3A15 /* CreateGifImagesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEAB9A161C7AB76F00EF3A15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEAB9A2B1C7AB76F00EF3A15 /* LaunchScreen.storyboard in Resources */,
+				CEAB9A281C7AB76F00EF3A15 /* Assets.xcassets in Resources */,
+				CEAB9A261C7AB76F00EF3A15 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEAB9A2F1C7AB76F00EF3A15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEAB9A3A1C7AB76F00EF3A15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEAB9A141C7AB76F00EF3A15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEAB9A231C7AB76F00EF3A15 /* ViewController.m in Sources */,
+				CEAB9A201C7AB76F00EF3A15 /* AppDelegate.m in Sources */,
+				CEAB9A1D1C7AB76F00EF3A15 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEAB9A2D1C7AB76F00EF3A15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEAB9A361C7AB76F00EF3A15 /* CreateGifImagesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEAB9A381C7AB76F00EF3A15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEAB9A411C7AB76F00EF3A15 /* CreateGifImagesUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEAB9A331C7AB76F00EF3A15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEAB9A171C7AB76F00EF3A15 /* CreateGifImages */;
+			targetProxy = CEAB9A321C7AB76F00EF3A15 /* PBXContainerItemProxy */;
+		};
+		CEAB9A3E1C7AB76F00EF3A15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEAB9A171C7AB76F00EF3A15 /* CreateGifImages */;
+			targetProxy = CEAB9A3D1C7AB76F00EF3A15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEAB9A241C7AB76F00EF3A15 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEAB9A251C7AB76F00EF3A15 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEAB9A291C7AB76F00EF3A15 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEAB9A2A1C7AB76F00EF3A15 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEAB9A431C7AB76F00EF3A15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEAB9A441C7AB76F00EF3A15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEAB9A461C7AB76F00EF3A15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CreateGifImages/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ArunJose.CreateGifImages;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEAB9A471C7AB76F00EF3A15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CreateGifImages/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ArunJose.CreateGifImages;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CEAB9A491C7AB76F00EF3A15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CreateGifImagesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ArunJose.CreateGifImagesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CreateGifImages.app/CreateGifImages";
+			};
+			name = Debug;
+		};
+		CEAB9A4A1C7AB76F00EF3A15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CreateGifImagesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ArunJose.CreateGifImagesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CreateGifImages.app/CreateGifImages";
+			};
+			name = Release;
+		};
+		CEAB9A4C1C7AB76F00EF3A15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CreateGifImagesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ArunJose.CreateGifImagesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CreateGifImages;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CEAB9A4D1C7AB76F00EF3A15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CreateGifImagesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ArunJose.CreateGifImagesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CreateGifImages;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEAB9A131C7AB76F00EF3A15 /* Build configuration list for PBXProject "CreateGifImages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEAB9A431C7AB76F00EF3A15 /* Debug */,
+				CEAB9A441C7AB76F00EF3A15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEAB9A451C7AB76F00EF3A15 /* Build configuration list for PBXNativeTarget "CreateGifImages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEAB9A461C7AB76F00EF3A15 /* Debug */,
+				CEAB9A471C7AB76F00EF3A15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEAB9A481C7AB76F00EF3A15 /* Build configuration list for PBXNativeTarget "CreateGifImagesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEAB9A491C7AB76F00EF3A15 /* Debug */,
+				CEAB9A4A1C7AB76F00EF3A15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEAB9A4B1C7AB76F00EF3A15 /* Build configuration list for PBXNativeTarget "CreateGifImagesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEAB9A4C1C7AB76F00EF3A15 /* Debug */,
+				CEAB9A4D1C7AB76F00EF3A15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEAB9A101C7AB76F00EF3A15 /* Project object */;
+}
